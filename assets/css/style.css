@@ -327,6 +327,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.png");
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero .hero-container {
@@ -1065,12 +1067,13 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 60px;
 }
 
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
+
 }
 
 .team .member .member-img {
